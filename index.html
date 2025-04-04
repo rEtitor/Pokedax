@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PokeDax </title>
+    <link rel="icon" href="/favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="/CSS/style.css">
+    
+    <!-- ⬇️ "defer" para coloca o script em cima do vez de em baixo(uma pagina carrega de cima pra baixo, int para evitar bugs redereizar script primeiro) -->
+    <script defer src="/JS/script.JS"></script>
+
+
+
+</head>
+<body>
+    
+<main>  
+
+    <img class="pokemon_image" src="#" alt="pokemon_image">
+
+    <h1 class="pokemon_data"> 
+
+        <span class="Pokemon_number">  </span> -
+        <span class="Pokemon_name">  </span>
+    </h1>
+
+    <form class="form"> 
+         
+        <!-- "class="input_search" < foi usada para puxa uma pesquisa no js " -->
+        <input type="search" 
+        class="input_search"  
+        placeholder="Namer or Number" 
+        required>
+    </form>
+
+    <div class="buttons"> 
+
+        <button class="button btn-prev"> Prev &lt </button>
+        <button class="button btn-next"> Next &gt </button>
+
+    </div>
+
+    <img src="/Images/pokedex.png" alt="PokeDax"> 
+
+</main>
+
+
+
+</body>
+</html>
