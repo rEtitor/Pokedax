@@ -13,7 +13,7 @@ let searchPokemon = 398; // Inicializa com o ID do Pokémon inicial
 const fetchPokemon = async (pokemon) => {
     const APIResponse = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon }`); //⬅️Converte o nome para minúsculas
 
-    if (APIResponse.status === 200) { // Corrigido para usar ===
+    if (APIResponse.status === 200) { //⬅️Verifica se a resposta da API é 200 (OK)
         const data = await APIResponse.json();
         return data;
     }

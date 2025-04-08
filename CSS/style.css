@@ -38,8 +38,8 @@ position: relative;
 
 
 position: absolute;
-bottom: 58%;
-left: 32%;
+bottom: 55%;
+left: 35%;
 transform: translate(5%, 40%);
 height: 15%;
 }
@@ -50,8 +50,8 @@ height: 15%;
 
 position: absolute;
 font-weight: 600;
-color: #aaa;
-top: 54%;
+color: #ffffff;
+top: 375px;
 left: 26%;
 height: 20%;
 /* Caso nao fica bom em outra telas, mudar ⬇️ fixo para (clamp)  */ 
@@ -62,7 +62,7 @@ font-size: 23px;
 .Pokemon_name { 
 
 
-color: #3a444d;
+color: #b4b4b4;
 /* (capitalize) deixa apenas a primeira letra maiuscula*/
 text-transform: capitalize;
 
@@ -71,7 +71,7 @@ text-transform: capitalize;
 .form { 
 
 position: absolute;
-top: 68%;
+top: 69%;
 left: 27%;
 }
 
